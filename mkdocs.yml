@@ -1,0 +1,37 @@
+#cd C:/Users/Admin/dir_name
+#mkdocs serve  更新
+plugins:
+    - search
+    - img2fig
+markdown_extensions:
+  - tables
+site_name: 福赛创新
+#theme:
+  #name: readthedocs
+theme:
+  name: material
+  icon:
+    logo: material/github
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: 切换到暗色模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到亮色模式
+  #palette:
+    #primary: 'deep orange'
+    #accent: 'deep orange' 
+nav: 
+  - 主页: index.md
+  - 文档:
+    - V316烧录方式: V316.md
+    - C++: about.md
+  - 测试:
+    - 测试1: V316_download.md
+    - 测试2: 回调函数.md
+    - 测试3: markdown快捷键测试.md
+extra_css:
+  - extra.css
