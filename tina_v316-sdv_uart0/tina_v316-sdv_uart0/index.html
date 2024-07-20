@@ -828,6 +828,7 @@
 <h1 id="_1"><strong>固件修改指南</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <h2 id="1">1、前言<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
 <h3 id="11">1.1 文档介绍<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p><img alt="image-20240720170958655" src="../assets/image-20240720170958655.png" /></p>
 <p>编译系统源码后，打包后生成的系统文件称之为固件。固件一般为.img格式。本文介绍离线修改固件的方法。</p>
 <h3 id="12">1.2 适用范围<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
 <blockquote>
@@ -858,46 +859,46 @@
 <h3 id="22">2.2软件运行<a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
 <p>鼠标右击下载的压缩包，并使用解压软件解压文件至英文目录，如图1。双击打开解压后的文件，并选中Dragon Face.exe双击打开，如图2、图3。软件即可运行。</p>
 <p>图1:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113622238.png" alt="image-20240720113622238" style="zoom:70%;" /></p>
+<p><img src="./assets/image-20240720113622238.png" alt="image-20240720113622238" style="zoom:70%;" /></p>
 <p>图2:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113636171.png" alt="image-20240720113636171" style="zoom:80%;" /></p>
+<p><img src="./assets/image-20240720113636171.png" alt="image-20240720113636171" style="zoom:80%;" /></p>
 <p>图3:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113649770.png" alt="image-20240720113649770" style="zoom:70%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113649770.png" alt="image-20240720113649770" style="zoom:70%;" /></p>
 <h2 id="3logo">3、更换Logo<a class="headerlink" href="#3logo" title="Permanent link">&para;</a></h2>
 <ol>
 <li>打开软件点击固件，如图4；</li>
 </ol>
 <p>图4：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113702532.png" alt="image-20240720113702532" style="zoom:70%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113702532.png" alt="image-20240720113702532" style="zoom:70%;" /></p>
 <ol>
 <li>选择指定的.img格式固件，如图5；</li>
 </ol>
 <p>图5：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113713901.png" alt="image-20240720113713901" style="zoom:80%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113713901.png" alt="image-20240720113713901" style="zoom:80%;" /></p>
 <ol>
 <li>点击“打开LOGO目录”选项，更换开机图片，如图6、图7。</li>
 </ol>
 <p>图6：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113757957.png" alt="image-20240720113757957" style="zoom:70%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113757957.png" alt="image-20240720113757957" style="zoom:70%;" /></p>
 <p>图7:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113810379.png" alt="image-20240720113810379" style="zoom:80%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113810379.png" alt="image-20240720113810379" style="zoom:80%;" /></p>
 <p>注意：固件的放置目录必须为英文目录。添加的图片必须为bmp格式，且不可直接更改图片文件的文件扩展名，否则会导致更换无效。图片像素由屏幕像素确定。</p>
 <h2 id="4">4、修改固件配置<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
 <h3 id="41-rootfs">4.1 <strong>rootfs目录介绍</strong><a class="headerlink" href="#41-rootfs" title="Permanent link">&para;</a></h3>
 <p>点击“打开RootFS”选项，进入rootfs目录，如图8。固件配置的修改主要在data文件夹和\usr\share\app\sdv文件夹,如图9、图10。这两个文件夹文件一致，需两边同时修改。</p>
 <p>图8:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720115142832.png" alt="image-20240720115142832" style="zoom:50%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720115142832.png" alt="image-20240720115142832" style="zoom:50%;" /></p>
 <p>图9:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720115450487.png" alt="image-20240720115450487" style="zoom:50%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720115450487.png" alt="image-20240720115450487" style="zoom:50%;" /></p>
 <p>图10:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720115402248.png" alt="image-20240720115402248" style="zoom:50%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720115402248.png" alt="image-20240720115402248" style="zoom:50%;" /></p>
 <h3 id="42-setting">4.2 setting文件修改<a class="headerlink" href="#42-setting" title="Permanent link">&para;</a></h3>
 <h4 id="421">4.2.1 修改普通录像默认参数<a class="headerlink" href="#421" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到普通录像参数配置区域，如图11。</p>
 <p>图11:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113922310.png" alt="image-20240720113922310" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113922310.png" alt="image-20240720113922310" style="zoom:90%;" /></p>
 <p>图12:</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720113940820.png" alt="image-20240720113940820" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720113940820.png" alt="image-20240720113940820" style="zoom:90%;" /></p>
 <p>以ml_record_resolution为例，它表示录像分辨率，其值的设置从0开始递增，逐一对应相机设置页面具体的录像分辨率选项。如：0代表第一个选项（4K60FPS），1代表第二个选项（4K30FPS），以此类推。下表为普通录像各参数，修改方法同以上举例。</p>
 <table>
 <thead>
@@ -972,7 +973,7 @@
 <h4 id="422">4.2.2 修改缩时录像默认参数<a class="headerlink" href="#422" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图13。</p>
 <p>图13：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114028516.png" alt="image-20240720114028516" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114028516.png" alt="image-20240720114028516" style="zoom:90%;" /></p>
 <p>下表为缩时录像各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1039,7 +1040,7 @@
 <h4 id="423">4.2.3 修改延时录像默认参数<a class="headerlink" href="#423" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图14。</p>
 <p>图14：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114038980.png" alt="image-20240720114038980" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114038980.png" alt="image-20240720114038980" style="zoom:90%;" /></p>
 <p>下表为延时录像各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1094,7 +1095,7 @@
 <h4 id="424">4.2.4 修改循环录像默认参数<a class="headerlink" href="#424" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图15。</p>
 <p>图15：</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114050772.png" alt="image-20240720114050772" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114050772.png" alt="image-20240720114050772" style="zoom:90%;" /></p>
 <p>下表为循环录像各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1169,11 +1170,7 @@
 <h4 id="425-track_rec">4.2.5 修改track_rec默认参数<a class="headerlink" href="#425-track_rec" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图16。</p>
 <p>图16：</p>
-<figure class="figure-image">
-  <img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114106520.png" alt="image-20240720114106520">
-  <figcaption>image-20240720114106520</figcaption>
-</figure>
-
+<p><img alt="image-20240720114106520" src="/tina_v316-sdv_uart0/assets/image-20240720114106520.png" /></p>
 <p>下表为track_rec各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1240,11 +1237,7 @@
 <h4 id="426">4.2.6 修改普通拍照默认参数<a class="headerlink" href="#426" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图17。</p>
 <p>图17：</p>
-<figure class="figure-image">
-  <img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114118369.png" alt="image-20240720114118369">
-  <figcaption>image-20240720114118369</figcaption>
-</figure>
-
+<p><img alt="image-20240720114118369" src="/tina_v316-sdv_uart0/assets/image-20240720114118369.png" /></p>
 <p>下表为普通拍照各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1319,11 +1312,7 @@
 <h4 id="427">4.2.7 修改定时拍照默认参数<a class="headerlink" href="#427" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图18。</p>
 <p>图18：</p>
-<figure class="figure-image">
-  <img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114130340.png" alt="image-20240720114130340">
-  <figcaption>image-20240720114130340</figcaption>
-</figure>
-
+<p><img alt="image-20240720114130340" src="/tina_v316-sdv_uart0/assets/image-20240720114130340.png" /></p>
 <p>下表为定时拍照各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1402,11 +1391,7 @@
 <h4 id="428">4.2.8 修改自动拍照默认参数<a class="headerlink" href="#428" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图19。</p>
 <p>图19：</p>
-<figure class="figure-image">
-  <img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720120141270.png" alt="image-20240720120141270">
-  <figcaption>image-20240720120141270</figcaption>
-</figure>
-
+<p><img alt="image-20240720120141270" src="/tina_v316-sdv_uart0/assets/image-20240720120141270.png" /></p>
 <p>下表为自动拍照各参数，修改方法同普通录像。</p>
 <table>
 <thead>
@@ -1485,11 +1470,7 @@
 <h4 id="429">4.2.9 修改连续拍照默认参数<a class="headerlink" href="#429" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图20。</p>
 <p>图20：</p>
-<figure class="figure-image">
-  <img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114157293.png" alt="image-20240720114157293">
-  <figcaption>image-20240720114157293</figcaption>
-</figure>
-
+<p><img alt="image-20240720114157293" src="/tina_v316-sdv_uart0/assets/image-20240720114157293.png" /></p>
 <p><center>图20</center></p>
 <p>下表为连续拍照各参数，修改方法同普通录像。</p>
 <table>
@@ -1568,7 +1549,7 @@
 </table>
 <h4 id="4210-system">4.2.10 修改system部分默认参数<a class="headerlink" href="#4210-system" title="Permanent link">&para;</a></h4>
 <p>打开setting.lua文件，如图11。找到缩时录像参数配置区域，如图21。</p>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114211006.png" alt="image-20240720114211006" style="zoom:80%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114211006.png" alt="image-20240720114211006" style="zoom:80%;" /></p>
 <p>图21</p>
 <p>下表为system部分参数，修改方法同普通录像。。</p>
 <table>
@@ -1779,9 +1760,9 @@
 </tbody>
 </table>
 <h3 id="43-dataflow_config">4.3 dataflow_config文件修改<a class="headerlink" href="#43-dataflow_config" title="Permanent link">&para;</a></h3>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114241245.png" style="zoom:100%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114241245.png" style="zoom:100%;" /></p>
 <h3 id="44-net_config">4.4 net_config文件修改<a class="headerlink" href="#44-net_config" title="Permanent link">&para;</a></h3>
-<p><img src="/tina_v316-sdv_uart0固件修改说明/assets/image-20240720114249653.png" alt="image-20240720114249653" style="zoom:90%;" /></p>
+<p><img src="/tina_v316-sdv_uart0/assets/image-20240720114249653.png" alt="image-20240720114249653" style="zoom:90%;" /></p>
 
 
 
